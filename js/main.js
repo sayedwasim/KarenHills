@@ -23,8 +23,6 @@ function setContentHeight(){
 }
 
 $(document).ready(function(){
-	setSliderHeight();
-	setContentHeight();
 	
 	/*---------- HOME SLIDER ----------*/
 	$(".home-slider").owlCarousel({
@@ -90,8 +88,10 @@ $(document).ready(function(){
 
 
 $(window).on('resize', function(){
-	setSliderHeight();
-	setContentHeight();
+	setTimeout(function() {
+		setSliderHeight();
+		setContentHeight();
+	}, 500);
 });
 
 $(document).keydown(function(e) {
@@ -112,4 +112,7 @@ $(window).load(function() {
 			loader.hide();
 		}
 	}, 700 );	
+	
+	setSliderHeight();
+	setContentHeight();
 });
