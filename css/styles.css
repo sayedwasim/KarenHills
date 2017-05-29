@@ -670,6 +670,56 @@ body.menu-open:after{visibility:visible;opacity:1;z-index:2000;
 #homes.gallery .hidden{display:none;}
 .fancybox-caption{font-family:'proxima_novalight', Arial, sans-serif;font-size:18px;}
 
+
+/*---------- CONTACTS ----------*/
+.contacts-tbl{display:table;width:100%;}
+.contacts-tbl .col{display:table-cell;vertical-align:top;}
+.contacts-tbl .col.left{width:444px;}
+.contacts-tbl .col.right{padding-left:26px;}
+
+.contact-pics{font-size:0;margin:0 0 20px -14px;}
+.contact-pics img{display:inline-block;vertical-align:top;padding-left:14px;width:50%;}
+
+.contacts-tbl h1{font-size:48px;color:#1D5632;font-family:'proxima_novasemibold', Arial, sans-serif;
+	text-transform:uppercase;text-align:center;margin-bottom:15px;
+}
+.contacts-tbl .newsletter-label{display:block;color:#4D4D4D;font-family:'proxima_novasemibold', Arial, sans-serif;
+	text-align:center;font-size:20px;margin-bottom:12px;
+}
+.contacts-tbl .input-wrapper{position:relative;width:432px;height:40px;margin:0 auto;}
+.contacts-tbl .input-wrapper .textbox{display:block;width:100%;margin:0;background-color:#E6E6E6;border:1px solid #E6E6E6;
+	height:40px;line-height:40px;padding:0 120px 0 12px;color:#666;font-family:'proxima_novasemibold', Arial, sans-serif;font-size:18px;
+}
+.contacts-tbl .input-wrapper.error .textbox{border-color:#e94b35;font-family:'proxima_novalight', Arial, sans-serif;}
+.contacts-tbl .input-wrapper.error .textbox::-webkit-input-placeholder {color:#e94b35;opacity:1;}
+.contacts-tbl .input-wrapper.error .textbox::-moz-placeholder {color:#e94b35;opacity:1;}
+.contacts-tbl .input-wrapper.error .textbox:-ms-input-placeholder {color:#e94b35;opacity:1;}
+.contacts-tbl .input-wrapper.error .textbox::placeholder {color:#e94b35;opacity:1;}
+
+.contacts-tbl .input-wrapper button{color:#fff;border:0 none;margin:0;background-color:#1D5632;width:100px;height:100%;cursor:pointer;
+	font-family:'proxima_novasemibold', Arial, sans-serif;font-size:18px;position:absolute;right:0;top:0;text-transform:uppercase;
+	-webkit-transition: all 0.3s ease 0s;
+ 	transition: all 0.3s ease 0s;
+}
+.contacts-tbl .input-wrapper button:hover{background-color:#8cc63f;color:#1D5632;}
+
+.contacts-tbl .info-tbl{display:table;width:100%;max-width:500px;margin:40px auto;}
+.contacts-tbl .info-tbl .col{display:table-cell;vertical-align:top;}
+.contacts-tbl .info-tbl .col.left{width:204px;}
+.contacts-tbl .info-tbl .col.right{border-left:1px solid #000;padding-left:12px;color:#000;font-size:16px;}
+.contacts-tbl .info-tbl .lordship-logo{width:134px;}
+.contacts-tbl .info-tbl h2{color:#000;font-family:'proxima_novasemibold', Arial, sans-serif;margin:-3px 0 10px 0;font-size:18px;}
+.contacts-tbl .info-tbl p{margin-bottom:0;}
+.contacts-tbl .info-tbl p a{color:#000;}
+.contacts-tbl .info-tbl p a:hover{text-decoration:underline;}
+
+.contacts-tbl .contact-info{font-size:0;text-align:center;color:#1D5632;}
+.contacts-tbl .contact-info .phone{font-size:22px;display: inline-block;vertical-align:middle;padding:0 30px 0 0;}
+.contacts-tbl .contact-info .phone a{font-family:'proxima_novasemibold', Arial, sans-serif;}
+.contacts-tbl .contact-info .email{display:inline-block;vertical-align:middle;font-size:18px;}
+.contacts-tbl .contact-info .email:hover{color:#000;text-decoration:underline;}
+
+
 /*---------- FOOTER ----------*/
 #footer{background-color:#1D5632;padding:17px 0;}
 #footer .wrapper{display:table;width:100%;}
