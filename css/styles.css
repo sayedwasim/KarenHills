@@ -1091,7 +1091,7 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 .contacts-tbl .newsletter-label{display:block;color:#4D4D4D;font-family:'proxima_novasemibold', Arial, sans-serif;
 	text-align:center;font-size:20px;margin-bottom:12px;
 }
-.contacts-tbl .input-wrapper{position:relative;width:432px;height:40px;margin:0 auto;}
+.contacts-tbl .input-wrapper{position:relative;max-width:432px;height:40px;margin:0 auto;}
 .contacts-tbl .input-wrapper .textbox{display:block;width:100%;margin:0;background-color:#E6E6E6;border:1px solid #E6E6E6;
 	height:40px;line-height:40px;padding:0 120px 0 12px;color:#666;font-family:'proxima_novasemibold', Arial, sans-serif;font-size:18px;
 }
@@ -1123,6 +1123,8 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 .contacts-tbl .contact-info .phone a{font-family:'proxima_novasemibold', Arial, sans-serif;}
 .contacts-tbl .contact-info .email{display:inline-block;vertical-align:middle;font-size:18px;}
 .contacts-tbl .contact-info .email:hover{color:#000;text-decoration:underline;}
+
+.contacts-tbl .btn-map{margin-top:30px;display:none;}
 
 
 /*---------- FOOTER ----------*/
@@ -1226,6 +1228,14 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	#homes .listing li{width:33.33%;}
 	#main_content{padding:30px 0;}
 	.two-cols-tbl .desc{padding:30px 50px 50px 50px;}
+	.contacts-tbl{display:block;}
+	.contacts-tbl .col{display:block;}
+	.contacts-tbl .col.left{display:none;}
+	.contacts-tbl .col.right{padding-left:0;}
+	.contacts-tbl .btn-map{display:inline-block;}
+	.contacts-tbl .info-tbl .col.left{display:table-cell;}
+	.contact-pics{display:none;}
+	
 }
 
 @media only screen and (max-width: 670px) {
@@ -1245,6 +1255,7 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	#homes .listing li{width:50%;}
 	.two-cols-tbl h1{font-size:22px;}
 	.two-cols-tbl h1:after{margin-top:22px;}
+	.contacts-tbl h1{font-size:40px;}
 }
 
 @media only screen and (max-width: 570px) {
@@ -1268,6 +1279,14 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	#homes .listing{margin-left:-20px;}
 	#homes .listing li{padding:0 0 30px 20px;}
 	#homes .listing .title{font-size:18px;}
+	.contacts-tbl h1{font-size:32px;}
+	.contacts-tbl .info-tbl{display:block;max-width:none;}
+	.contacts-tbl .info-tbl .col.left,
+	.contacts-tbl .info-tbl .col.right{display:block;width:100%;text-align:center;}
+	.contacts-tbl .info-tbl .col.left{padding-bottom:20px;}
+	.contacts-tbl .info-tbl .col.right{border:0 none;border-top:1px solid #000;padding:20px 0 0 0;line-height:24px;}
+	.contacts-tbl .info-tbl .lordship-logo{display:inline-block;vertical-align:top;}
+	.contacts-tbl .contact-info .phone{display:block;padding:0 0 10px 0;}
 }
 
 @media only screen and (max-width: 360px) {
