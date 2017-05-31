@@ -24,6 +24,19 @@ function setContentHeight(){
 
 $(document).ready(function(){
 	
+	/*---------- NAVIGATION HAMBURGER ----------*/
+	$(".navigation-hamburger").on("click", function(){
+		if($(this).hasClass('-open')){
+			$(this).removeClass('-open').addClass('-close');
+			$('body').removeClass('menu-open');
+		}
+		else{
+			$(this).removeClass('-close').addClass('-open');
+			$('body').addClass('menu-open');
+		}
+	});
+	
+	
 	/*---------- HOME SLIDER ----------*/
 	$(".home-slider").owlCarousel({
 		items:1,
@@ -59,6 +72,7 @@ $(document).ready(function(){
 		setTimeout(function() { 
 			$('#feedback_fullname').focus();
 		}, 100);
+		return false;
 	});
 	
 	$('body').on('click', function(event){
