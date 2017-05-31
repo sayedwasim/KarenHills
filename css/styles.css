@@ -1161,6 +1161,7 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.home-slider-wrapper h2:before{width:180px;}
 	.home-slider-wrapper .info-wrapper{padding:12px 0;}
 	.home-slider-wrapper .scrollable{font-size:16px;}
+	
 }
 
 @media only screen and (max-height: 660px) {
@@ -1216,6 +1217,15 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.home-slider .slide{padding-left:80px;}
 	.owl-nav{left:80px;}
 	.home-slider .owl-dots{padding-left:0;text-align:right;}
+	.two-cols-tbl{display:block;}
+	.two-cols-tbl .col{display:block;}
+	.two-cols-tbl .col.left{padding-right:0;}
+	.two-cols-tbl .col.right{width:100%;font-size:0;text-align:center;}
+	.side-link-block{display:inline-block;vertical-align:top;width:45%;margin-left:20px;}
+	.side-link-block:first-child{margin-left:0;}
+	#homes .listing li{width:33.33%;}
+	#main_content{padding:30px 0;}
+	.two-cols-tbl .desc{padding:30px 50px 50px 50px;}
 }
 
 @media only screen and (max-width: 670px) {
@@ -1232,6 +1242,9 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.home-slider-wrapper .btn:hover{color:#1d5632;}
 	.owl-nav{left:0;}
 	#feedback_wrapper{width:100%;right:-100%;}
+	#homes .listing li{width:50%;}
+	.two-cols-tbl h1{font-size:22px;}
+	.two-cols-tbl h1:after{margin-top:22px;}
 }
 
 @media only screen and (max-width: 570px) {
@@ -1249,9 +1262,16 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	#mobile_nav .btn-feedback{font-size:20px;}
 	
 	.feedback-form .btn{display:block;width:100%;}
+	.two-cols-tbl h1{font-size:20px;}
+	.two-cols-tbl .desc{padding:30px 0;}
+	#homes{padding-top:40px;}
+	#homes .listing{margin-left:-20px;}
+	#homes .listing li{padding:0 0 30px 20px;}
+	#homes .listing .title{font-size:18px;}
 }
 
 @media only screen and (max-width: 360px) {
+	body{font-size:16px;}
 	.home-slider-wrapper .info-wrapper .block{padding:26px 20px;}
 	.home-slider-wrapper h2{font-size:20px;}
 	.btn{padding:0 18px;}
@@ -1259,6 +1279,10 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	#footer .col{font-size:12px;}
 	.feedback h2{font-size:24px;}
 	.feedback{padding:20px;}
+	#main_content{padding:20px 0;}
+	.side-link-block{display:block;width:100%;margin:20px 0 0 0;}
+	.side-link-block:first-child{margin-top:40px;}
+	#homes .listing li{width:100%;}
 }
 
 
