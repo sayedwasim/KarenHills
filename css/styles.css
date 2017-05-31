@@ -1302,6 +1302,11 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.side-link-block{display:block;width:100%;margin:20px 0 0 0;}
 	.side-link-block:first-child{margin-top:40px;}
 	#homes .listing li{width:100%;}
+	.contacts-tbl h1{font-size:28px;}
+	.contacts-tbl .newsletter-label{font-size:18px;}
+	.contacts-tbl .input-wrapper{height:auto;}
+	.contacts-tbl .input-wrapper .textbox{padding-right:12px;}
+	.contacts-tbl .input-wrapper button{position:relative;height:40px;width:100%;margin-top:10px;}
 }
 
 
