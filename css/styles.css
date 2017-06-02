@@ -43,11 +43,11 @@ input[type="checkbox"]{-webkit-appearance:checkbox;}
 /*---------- ICONS ----------*/
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?xawogj');
-  src:  url('fonts/icomoon.eot?xawogj#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?xawogj') format('truetype'),
-    url('fonts/icomoon.woff?xawogj') format('woff'),
-    url('fonts/icomoon.svg?xawogj#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?948392');
+  src:  url('fonts/icomoon.eot?948392#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?948392') format('truetype'),
+    url('fonts/icomoon.woff?948392') format('woff'),
+    url('fonts/icomoon.svg?948392#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -63,6 +63,9 @@ input[type="checkbox"]{-webkit-appearance:checkbox;}
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-info:before {
+  content: "\f129";
+}
 .icon-menu:before {
   content: "\f0c9";
 }
@@ -1188,6 +1191,12 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	#main_menu .btn-feedback{display:block;}
 	#feedback_wrapper .btn-feedback{display:none;}
 	#feedback_wrapper{right:-570px;height:100%;padding-left:0;}
+	.two-cols-tbl .col.right{width:250px;}
+	.two-cols-tbl .desc{padding:30px 40px 50px 60px;}
+	.two-cols-tbl .col.right.wide{width:350px;}
+	.two-cols-tbl h1.large{font-size:30px;}
+	.home-slider-wrapper.inner{padding:20px 0;}
+	.home-slider-wrapper.inner .slider-cover{width:250px;}
 }
 @media only screen and (max-width: 1000px) {
 	.navigation-hamburger{display:inline-block;}
@@ -1227,7 +1236,7 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.side-link-block:first-child{margin-left:0;}
 	#homes .listing li{width:33.33%;}
 	#main_content{padding:30px 0;}
-	.two-cols-tbl .desc{padding:30px 50px 50px 50px;}
+	.two-cols-tbl .desc{padding:30px 40px 50px 40px;}
 	.contacts-tbl{display:block;}
 	.contacts-tbl .col{display:block;}
 	.contacts-tbl .col.left{display:none;}
@@ -1235,6 +1244,11 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.contacts-tbl .btn-map{display:inline-block;}
 	.contacts-tbl .info-tbl .col.left{display:table-cell;}
 	.contact-pics{display:none;}
+	.two-cols-tbl .col.right.wide{width:100%;}
+	.two-cols-tbl .col.right .images{font-size:0;}
+	.two-cols-tbl .col.right .images img{display:inline-block;vertical-align:top;width:45%;margin-left:20px;}
+	.two-cols-tbl .col.right .images img:first-child{margin:40px 0 0 0;}
+	.home-slider-wrapper.inner .slider-cover{width:150px;}
 	
 }
 
@@ -1256,6 +1270,9 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.two-cols-tbl h1{font-size:22px;}
 	.two-cols-tbl h1:after{margin-top:22px;}
 	.contacts-tbl h1{font-size:40px;}
+	.home-slider-wrapper.inner .slider-cover{display:none;}
+	.home-slider-wrapper.inner .info-wrapper{left:0;right:0;padding:0 20px;}
+	.home-slider-wrapper.inner .home-slider .owl-dots{left:auto;right:10px;}
 }
 
 @media only screen and (max-width: 570px) {
@@ -1287,6 +1304,8 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	.contacts-tbl .info-tbl .col.right{border:0 none;border-top:1px solid #000;padding:20px 0 0 0;line-height:24px;}
 	.contacts-tbl .info-tbl .lordship-logo{display:inline-block;vertical-align:top;}
 	.contacts-tbl .contact-info .phone{display:block;padding:0 0 10px 0;}
+	.two-cols-tbl .col.right .images{display:none;}
+	.two-cols-tbl h1.large{font-size:24px;}
 }
 
 @media only screen and (max-width: 360px) {
