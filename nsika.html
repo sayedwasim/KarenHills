@@ -25,6 +25,27 @@
 </head>
 
 <body>
+<!-- loader -->
+<div id="preloader-bg"></div>
+<div class="load fadeInUp">
+  <img src="images/logo.png" width="184" height="69" alt="Karen Hills Loading" />
+  <div class="preloader-dotline">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div> 
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div> 
+    <div class="dot"></div>
+    <div class="dot"></div>    
+  </div>
+</div>
+<div id="loader" class="pageload-overlay" data-opening="M 0,0 c 0,0 63.5,-16.5 80,0 16.5,16.5 0,60 0,60 L 0,60 Z">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+    <path d="M 0,0 c 0,0 -16.5,43.5 0,60 16.5,16.5 80,0 80,0 L 0,60 Z" />
+  </svg>
+</div>
+<!-- loader end -->
 
 <!-- header -->
 <div id="header">
@@ -37,9 +58,11 @@
 		<div class="col right">
 			<ul id="main_menu">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="management.html">KHMCo</a></li>
+				<li><a href="signature-homes.html" class="active">Signature Homes</a></li>
 				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="site-plan.html">Site Plan</a></li>				
+				<li><a href="management.html">KHMCo</a></li>
+				<li><a href="about.html">About Us</a></li>				
 				<li><a href="contacts.html">Contacts</a></li>
 			</ul>
 			<div class="navigation-hamburger">
@@ -63,11 +86,14 @@
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="management.html">KHMCo</a></li>
+			<li><a href="signature-homes.html" class="active">Signature Homes</a></li>
 			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="site-plan.html">Site Plan</a></li>				
+			<li><a href="management.html">KHMCo</a></li>
+			<li><a href="about.html">About Us</a></li>				
 			<li><a href="contacts.html">Contacts</a></li>
-			<li><div class="btn-feedback">Call Me Back</div></li>
+			<li><div class="btn-feedback">Call Wendy</div></li>
+			<li><a href="KarenHillsBrochure.pdf" class="btn green">Download Brochure</a></li>
 			<li>
 				<div class="social">
 					<a href="#" class="icon-facebook"></a>
@@ -81,32 +107,39 @@
 <!-- mobile_nav end -->
 
 <!-- home-slider-wrapper -->
-<div class="home-slider-wrapper inner">
+<div class="home-slider-wrapper">
 	<div class="wrapper">
-		<a href="#" class="btn-slider-menu icon-info"></a>
+		<h1>Nsika Home</h1>
 		<div class="home-slider owl-carousel">
 			<div class="slide">
-				<div class="pic-wrapper" style="background-image: url(images/gallery/nsika/slides/slide1.jpg)"></div>				
-			</div>
-			<div class="slide">
-				<div class="pic-wrapper" style="background-image: url(images/gallery/nsika/slides/slide2.jpg)"></div>				
-			</div>
-			<div class="slide">
-				<div class="pic-wrapper" style="background-image: url(images/gallery/nsika/slides/slide3.jpg)"></div>				
-			</div>
-		</div>
-		<div class="info-wrapper open">
-			<div class="block">
-				<a href="#" class="btn-close icon-close"></a>
-				<h2>Nsika Home</h2>
-				<div class="scrollable">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip </p>					
+				<div class="pic-wrapper">
+					<img src="images/gallery/nsika/slides/slide1.jpg" width="1200" height="682" alt="" />
 				</div>
-				<a href="gallery.html#nsika" class="btn green">View Gallery</a>				
+			</div>
+			<div class="slide">
+				<div class="pic-wrapper">
+					<img src="images/gallery/nsika/slides/slide2.jpg" width="1200" height="682" alt="" />
+				</div>
+			</div>
+			<div class="slide">
+				<div class="pic-wrapper">
+					<img src="images/gallery/nsika/slides/slide3.jpg" width="1200" height="682" alt="" />
+				</div>
 			</div>
 		</div>
-		<div class="slider-cover"></div>
-		
+		<!-- content -->
+		<div class="content">
+			<p>Conjuring up images of the gracious Plantation Architecture that is so appropriate for this wonderful climate of Karen Hills, the
+handsome Nsika Home is all about stately entrances, high double volumes, generous spaces, and the advantage of exclusive privacy
+for the family.</p>
+			<p>This is an Architecture that provides for grandeur through simple but carefully proportioned spaces and circulation flows, with elegant
+solutions of extraordinary indoor-outdoor living experiences.</p>
+			<p>The Nsika Home embraces the family, and the sheltered and shuttered Terrace provides the most wonderful sunset and evening
+space for savoring the culinary delights of the evening’s fare, whether a home-cooked barbecue, a social gathering of friends and
+family, or just a peaceful ending to the day.</p>
+			<a href="gallery.html#nsika" class="btn">View Gallery</a>
+		</div>
+		<!-- content end -->
 	</div>
 </div>
 <!-- home-slider-wrapper end -->
@@ -114,8 +147,11 @@
 <!-- footer -->
 <div id="footer">
 	<div class="wrapper">
-		<div class="col">
+		<div class="col left">
 			2017 &copy; Copyright Karen Hills Ltd. All Rights Reserved.
+		</div>
+		<div class="col middle">
+			<a href="KarenHillsBrochure.pdf" class="btn green">Download Brochure</a>
 		</div>
 		<div class="col right">
 			<a href="#" class="icon-facebook"></a>
@@ -128,7 +164,7 @@
 
 <!-- feeback_wrapper -->
 <div id="feedback_wrapper">
-	<div class="btn-feedback">Call Me Back</div>
+	<div class="btn-feedback">Call Wendy</div>
 	<div class="feedback">
 		<div class="feedback-close icon-close"></div>
 		<div class="text-center">
