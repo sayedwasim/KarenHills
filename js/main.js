@@ -103,7 +103,6 @@ $(document).ready(function(){
 
 $(window).on('resize', function(){
 	setTimeout(function() {
-		setSliderHeight();
 		setContentHeight();
 	}, 500);
 });
@@ -127,6 +126,6 @@ $(window).load(function() {
 		}
 	}, 700 );	
 	
-	setSliderHeight();
+	//setSliderHeight();
 	setContentHeight();
 });
