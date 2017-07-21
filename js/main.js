@@ -40,7 +40,8 @@ $(document).ready(function(){
 	$('[data-fancybox]').fancybox({
 		thumbs : {
 			autoStart : true
-		}
+		},
+		infobar : true
 	});
 	
 	
