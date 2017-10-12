@@ -545,7 +545,7 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 	border-left:0 none;border-right:0 none;
 }
 #main_content .content p{font-size:20px;line-height:28px;}
-#main_content .content i{font-style:normal;font-family:'proxima_novasemibold_italic', Arial, sans-serif;font-size:19px;}
+#main_content .content i{font-style:normal;font-family:'proxima_novasemibold_italic', Arial, sans-serif;font-size:19px;color:#1D5632;}
 #main_content h2{display:block;color:#000;font-size:36px;
 	font-family:'proxima_novasemibold', Arial, sans-serif;position:relative;margin-bottom:30px;
 }
@@ -1036,7 +1036,7 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 .two-cols-tbl .col.right .images img:first-child{margin-top:0;}
 
 /*---------- HOMES ----------*/
-#homes .listing{font-size:0;margin-left:-28px;text-align:center;}
+#homes .listing{font-size:0;margin-left:-28px;text-align:left;}
 #homes .listing li{display: inline-block;vertical-align:top;padding:0 0 40px 28px;width:25%;}
 #homes .listing a{display:block;}
 #homes .listing .pic-wrapper{display:block;overflow:hidden;background-color:#301D14;position:relative;
@@ -1097,11 +1097,11 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 /*---------- CONTACTS ----------*/
 .contacts-tbl{display:table;width:100%;}
 .contacts-tbl .col{display:table-cell;vertical-align:top;}
-.contacts-tbl .col.left{width:444px;}
+.contacts-tbl .col.left{width:350px;}
 .contacts-tbl .col.right{padding-left:26px;}
 
-.contact-pics{font-size:0;margin:0 0 20px -14px;}
-.contact-pics img{display:inline-block;vertical-align:top;padding-left:14px;width:50%;}
+.contact-pics{font-size:0;margin:0 0 20px -14px;text-align:center;}
+.contact-pics img{display:inline-block;vertical-align:top;padding-left:14px;width:40%;}
 
 #main_content .contacts-tbl h1{font-size:48px;color:#1D5632;font-family:'proxima_novasemibold', Arial, sans-serif;
 	text-transform:uppercase;text-align:center;margin-bottom:15px;display:block;padding:0;border:0 none;
@@ -1131,8 +1131,8 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 .contacts-tbl .info-tbl .col.left{width:204px;}
 .contacts-tbl .info-tbl .col.right{border-left:1px solid #000;padding-left:12px;color:#000;font-size:16px;}
 .contacts-tbl .info-tbl .lordship-logo{width:134px;}
-.contacts-tbl .info-tbl h2{color:#000;font-family:'proxima_novasemibold', Arial, sans-serif;margin:-3px 0 10px 0;font-size:18px;}
-.contacts-tbl .info-tbl p{margin-bottom:0;}
+#main_content .contacts-tbl .info-tbl h2{color:#000;font-family:'proxima_novasemibold', Arial, sans-serif;margin:-3px 0 10px 0;font-size:18px;}
+.contacts-tbl .info-tbl p{margin-bottom:0;line-height:22px;}
 .contacts-tbl .info-tbl p a{color:#000;}
 .contacts-tbl .info-tbl p a:hover{text-decoration:underline;}
 
@@ -1146,7 +1146,8 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 
 
 /*---------- FOOTER ----------*/
-#footer{background-color:#1D5632;padding:17px 0;}
+#footer{background-color:#1D5632;padding:17px 0;position:relative;z-index:4000;}
+.feedback-open #footer{z-index:1;}
 #footer .wrapper{display:table;width:100%;}
 #footer .col{display:table-cell;vertical-align:middle;color:#fff;font-size:18px;}
 #footer .col.right{text-align:right;font-size: 0;}
