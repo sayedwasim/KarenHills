@@ -1127,7 +1127,7 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 .contacts-tbl .input-wrapper button:hover{background-color:#8cc63f;color:#1D5632;}
 
 .contacts-tbl .info-tbl{display:table;width:100%;max-width:500px;margin:40px auto;}
-.contacts-tbl .info-tbl .col{display:table-cell;vertical-align:top;}
+.contacts-tbl .info-tbl .col{display:table-cell;vertical-align:middle;}
 .contacts-tbl .info-tbl .col.left{width:204px;}
 .contacts-tbl .info-tbl .col.right{border-left:1px solid #000;padding-left:12px;color:#000;font-size:16px;}
 .contacts-tbl .info-tbl .lordship-logo{width:134px;}
@@ -1150,12 +1150,20 @@ body.feedback-open:after{visibility:visible;opacity:1;z-index:3400;
 .feedback-open #footer{z-index:1;}
 #footer .wrapper{display:table;width:100%;}
 #footer .col{display:table-cell;vertical-align:middle;color:#fff;font-size:18px;}
+#footer .col.middle{text-align:right;}
 #footer .col.right{text-align:right;font-size: 0;}
 #footer .col.right a{display:inline-block;vertical-align:middle;font-size:28px;margin-left:52px;color:#fff;
 	width:40px;height:40px;line-height:40px;text-align:center;
 }
 #footer .col.right a:first-child{margin-left:0;}
 #footer .col.right a:hover{color:#8CC63F;}
+
+/*---------- DEV SOCIAL ----------*/
+.dev-social a{display:inline-block;vertical-align:middle;font-size:20px;margin-left:10px;color:#1D5632;
+	width:40px;height:40px;line-height:40px;text-align:center;
+}
+.dev-social a:first-child{margin-left:0;}
+.dev-social a:hover{color:#000;}
 
 /*---------- MEDIA QUERIES ----------*/
 @media only screen and (max-height: 780px) {
